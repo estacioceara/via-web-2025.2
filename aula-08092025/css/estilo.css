@@ -43,6 +43,41 @@ form > button {
     border-radius: 5px;
 }
 
+table {
+    border-collapse: collapse;
+}
+
+table > thead {
+    background-color: #333;
+    color: #FFF;
+    height: 30px;
+}
+
+/* vai aplicar apenas numa linha sim outra nao */
+table > tbody > tr:nth-child(even) {
+    background-color: #EFEFEF;
+} 
+
+table > tbody > tr:hover {
+    font-weight: bold;
+}
+
+button.btn-edit {
+    border: 0;
+    background-color: #ffd966;
+}
+
+button.btn-remove {
+    border: 0;
+    background-color: #990000;
+    color: white;
+}
+
+button.btn-remove:hover, button.btn-edit:hover {
+    transform: scale(0.9);
+}
+
+
 
 
 
