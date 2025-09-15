@@ -1,0 +1,50 @@
+body {
+    background-color: #333;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+}
+
+section > div {
+    background-color: #FFF;
+    color: #333;
+    padding: 25px;
+    border-radius: 5px;
+    width: 25%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+div > i {
+    display: block !important;
+    font-size: 4rem !important;
+}
+
+div > span {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+div > p {
+    color: #777;
+}
+
+div:hover {
+    transform: scale(1.1);
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
