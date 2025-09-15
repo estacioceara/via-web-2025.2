@@ -1,0 +1,28 @@
+html, body, section, div {
+    height: 100%;
+}
+
+body {
+    background-color: #EEE;
+}
+
+section {
+    display: flex;
+    width: 100%;
+}
+
+section > div {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center; /* vertical */
+    width: 50%;
+}
+
+div.lado-direito > aside {
+    background-color: #FFF;  
+    padding: 10px;
+}
+
+input {
+    display: block;
+}
