@@ -1,0 +1,28 @@
+<script>
+    let ladoA = prompt("lado A");
+    let ladoB = prompt("lado B");
+    let ladoC = prompt("lado C");
+
+    // 3 lados iguais:     equilatero
+    // 2 lados iguais:     isosceles
+    // 3 lados diferentes: escaleno
+
+
+    if (ladoA === ladoB && ladoB === ladoC) {
+        alert("Equilatero");
+    } else if (
+        ladoA !== ladoB 
+        && ladoB !== ladoC 
+        && ladoC !== ladoA
+    ) {
+        alert("Escaleno");
+    }
+
+    /*
+        if (condicao) {
+            ...
+        } else {
+            ....
+        }
+    */
+</script>
